@@ -7,6 +7,10 @@ defmodule RocketliveryWeb.Router do
 
   scope "/api", RocketliveryWeb do
     pipe_through :api
+
+    #Criando a primeira rota
+    get "/:id", WelcomeController, :index
+
   end
 
   # Enables LiveDashboard only for development
