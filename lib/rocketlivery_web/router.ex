@@ -9,7 +9,7 @@ defmodule RocketliveryWeb.Router do
     pipe_through :api
 
     #Criando a primeira rota
-    get "/:id", WelcomeController, :index
+    get "/", WelcomeController, :index
 
   end
 

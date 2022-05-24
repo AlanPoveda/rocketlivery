@@ -6,7 +6,7 @@ defmodule RocketliveryWeb.WelcomeController do
     # essa conn, é uma struct, e nela podem ser alterados os dados!
     conn
     |> put_status(:ok)
-    |> json(%{message: params["id"]})
+    |> json(%{message: "Que horas ta bom?"})
 
   end
 end
