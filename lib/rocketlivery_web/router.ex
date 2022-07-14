@@ -10,6 +10,7 @@ defmodule RocketliveryWeb.Router do
 
     #Criando a primeira rota
     get "/", WelcomeController, :index
+    get "/:id", WelcomeController, :show
 
   end
 
